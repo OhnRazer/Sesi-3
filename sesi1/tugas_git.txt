@@ -1,0 +1,28 @@
+Fungsi - Fungsi perintah Git :
+1. ls -al 		 	: berfungsi untuk melihat semua isi direktori
+2. mkdir 		 	: berfungsi untuk membuat folder.
+3. cd tugas_git		 : berfungsi untuk memanggil/masuk ke dalam folder yang telah kita buat .
+4. notepad.exe tugas_git 	: berfungsi untuk memanggil notepad dan mengisi artikel.
+5. git init			: berfungsi untuk config.
+6. git add readme.md		: berfungsi untuk menambah readme.md di git.
+7. git commit -m "first commit"	: berfungsi untuk mengasih diskripsi tentang file yang akan dikirim ke akun github.
+8. git remote add origin git@github.com:akungithub	: berfungsi untuk ngeremote akses github.
+9. git push -u origin master	: berfungsi untuk mengupload data ke akun github.
+10. git pull -u origin master	: berfungsi untuk mendownload data dari akun github.
+
+Berikut ini adalah step by step belajar git dengan github.
+1. Installasi GIT
+	a. Menggunakan apt-get
+	: sudo apt-get install git-core git-gui git-doc gitg
+
+	b. Konfigursi git global sistem
+	: - config --global user.name "Full Name"
+	  - git config --global user.email "your_email@youremail.com"
+	  - git config --global color.ui true
+
+2. Membuat  Key dengan cara : ssh-keygen.
+	: buka git bash lalu ketik ssh-keygen.exe .setelah itu enter saja terus sampai selesai prosesnya terlihat ada file baru id_rsa dan id_rsa.pub.
+id_rsa , adalah private key dan id_rsa.pub adalah public key. Keduanya adalah satu pasang. id_rsa.pub adalah file yang akan kita copy paste pada github, sedangkan id_rsa tetap di laptop. Jangan sekali-kali memberikan id_rsa kepada orang lain .
+
+
+
